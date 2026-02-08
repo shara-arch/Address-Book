@@ -13,4 +13,11 @@ addressBook.prototype.addContact = function(contact) {
     this.contacts[contact.id] = contact;
     console.log(`[LOG] Contact Added Successfully`);
 };
+addressBook.prototype.deleteContact = function(id) {
+if(this.tasks[id]){
+    delete this.contacts[id];
+    return true;
+}
+return false;
 
+};
