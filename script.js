@@ -21,3 +21,9 @@ if(this.tasks[id]){
 return false;
 
 };
+function contact(name,number,email){
+    this.name = name;
+    this.number = number;
+    this.email = email;
+    this.id = null;
+};
