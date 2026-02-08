@@ -3,7 +3,7 @@ function addressBook(){
     this.currentId = 0;
 };
 
-addressBook.prototype.assignId(){
+addressBook.prototype.assignId = function(){
     this.currentId++;
     return this.currentId;
 };
