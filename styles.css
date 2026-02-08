@@ -1,1 +1,38 @@
+body{
+    margin: 0;
+    padding: o;
+    background-color: antiquewhite;
 
+}
+h1{
+    text-align: center;
+}
+.Add-Contact{
+    flex: 1;
+    max-width: 25%;
+    padding: 20px;
+    border: 1px solid #0a0a0a;
+    border-radius:8px;
+    background-color: rgb(163, 149, 130);
+    margin:3% ;
+
+}
+.btn-add{
+    margin-top: 15px;
+    padding:10px;
+    background-color: #5e5c59;
+    color:white;
+    border:none;
+    border-radius:4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: beige;
+}
+.contactList{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-right: 10%;
+
+}
