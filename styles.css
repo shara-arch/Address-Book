@@ -46,3 +46,12 @@ button:hover{
 
 
 }
+footer{
+    background-color: rgb(234, 246, 248);
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0.9;
+    font-size: small;
+    margin-top: 10%;
+}
