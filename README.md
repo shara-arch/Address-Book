@@ -42,6 +42,13 @@ It allows the user to Create, View aand Delete contacts, in a clean card-style i
 - CSS
 - JavaScript
 
+## Future Improvements
+- Add local storage so contacts persist after page reload.
+- Enhance validation (e.g., proper email format, phone number length).
+- Add search and filter functionality for large contact lists.
+
+---
+
 ## Link to Live Site
 https://shara-arch.github.io/Address-Book/
 
