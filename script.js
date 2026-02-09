@@ -43,7 +43,7 @@ AddressBook.prototype.displayContacts = function() {
                 📞 ${contact.phone}<br>
                 📧 ${contact.email}<br>
                 🏠 ${contact.address}<br>
-                <button onclick="myContacts.deleteContact(${contact.id})">Delete Contact</button>
+                <button onclick="handleDelete(${contact.id})">Delete Contact</button>
             `;
             list.appendChild(contactCard);
         });
@@ -90,3 +90,8 @@ function createContact(event) {
     //clear form after saving
     document.querySelector("form").reset();
 }
+function handleDelete(id) {
+        if(confirm("Delete this task?")) {
+            myContacts.deleteContact(id);
+        }
+    }
