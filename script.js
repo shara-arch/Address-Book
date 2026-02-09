@@ -1,17 +1,19 @@
 function addressBook(){
     this.contacts = {};
-    this.currentId = 0;
+    
 };
 
-addressBook.prototype.assignId = function(){
+
+addressBook.prototype.assignId = function () {
     this.currentId++;
     return this.currentId;
 };
 
-addressBook.prototype.addContact = function(contact) {
+addressBook.prototype.addContact = function(name, phone, email, address) {
     contact.id = this.assignId();
-    this.contacts[contact.id] = contact;
-    console.log(`[LOG] Contact Added Successfully`);
+    this.contacts[contact.id];
+   
+    console.log(`Contact Added Successfully`);
 };
 addressBook.prototype.deleteContact = function(id) {
 if(this.tasks[id]){
@@ -21,9 +23,13 @@ if(this.tasks[id]){
 return false;
 
 };
-function contact(name,number,email){
+function contact(name,number,email, address, id){
     this.name = name;
     this.number = number;
     this.email = email;
-    this.id = null;
+    this.address = address;
+    this.id = id;
 };
+
+const myContacts = new addressBook();
+
