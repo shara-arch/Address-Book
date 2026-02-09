@@ -71,7 +71,14 @@ function createContact(event) {
     const email = document.getElementById("email").value;
     const address = document.getElementById("address").value;
 
+    // Data Validation
+     if (!name || !phone || !email) {
+         alert("Please fill in Full Name, Phone Number, and Email before saving."); 
+         return; 
+         }
+
     myContacts.addContact(name, phone, email, address);
+
     //clear form after saving
     document.querySelector("form").reset();
 }
