@@ -77,7 +77,15 @@ function createContact(event) {
          return; 
          }
 
-    myContacts.addContact(name, phone, email, address);
+    
+    //  Capitalize first letter of the name
+    
+    const contactName = name
+     .split(/\s+/ ) 
+     .map(word => word.charAt(0).toUpperCase() + word.slice(1)) 
+     .join(" ");
+     
+    myContacts.addContact(contactName, phone, email, address);
 
     //clear form after saving
     document.querySelector("form").reset();
