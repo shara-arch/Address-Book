@@ -52,6 +52,11 @@ It allows the user to Create, View aand Delete contacts, in a clean card-style i
 ## Link to Live Site
 https://shara-arch.github.io/Address-Book/
 
+## Support.
+I encourage you to collaborate!
+- Feel free to me contact on: 
+Email: sharamoegi@gmail.com :)
+
 ## LICENSE
 MIT License
 
