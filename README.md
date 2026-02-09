@@ -34,5 +34,12 @@ It allows the user to Create, View aand Delete contacts, in a clean card-style i
 ### 3. Clears Form and Adds Contact
    - INPUT : "Save Contact"
    - OUTPUT: "Clear Form"
-   - OUTPUT: "Render contact"
+   - OUTPUT: "Render Contact List"
 
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Link to Live Cite
+https://shara-arch.github.io/Address-Book/
