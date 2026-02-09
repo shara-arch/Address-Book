@@ -55,3 +55,43 @@ footer{
     font-size: small;
     margin-top: 10%;
 }
+/* Contact card styling */
+.contact-item {
+    background-color: #fdf6e3; /* soft parchment tone */
+    border: 1px solid #a0a0a0;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 300px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-family: "Georgia", serif; /* subtle calligraphy vibe */
+}
+
+.contact-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.15);
+}
+
+.contact-item strong {
+    font-size: 1.2em;
+    color: #3b2f2f;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Delete button inside cards */
+.contact-item button {
+    margin-top: 10px;
+    background-color: #b23b3b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-item button:hover {
+    background-color: #7a2626;
+}
