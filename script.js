@@ -63,7 +63,7 @@ function Contact(name, phone, email, address) {
 // Initialize system
 const myContacts = new AddressBook();
 
-// Hook form button
+
 function createContact() {
     const name = document.getElementById("name").value;
     const phone = document.getElementById("phone").value;
