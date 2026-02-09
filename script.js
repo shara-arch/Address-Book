@@ -64,11 +64,14 @@ function Contact(name, phone, email, address) {
 const myContacts = new AddressBook();
 
 
-function createContact() {
+function createContact(event) {
+    if (event) event.preventdefault();
     const name = document.getElementById("name").value;
     const phone = document.getElementById("phone").value;
     const email = document.getElementById("email").value;
     const address = document.getElementById("address").value;
 
     myContacts.addContact(name, phone, email, address);
+    //clear form after saving
+    document.querySelector("form").reset();
 }
